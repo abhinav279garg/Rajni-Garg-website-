@@ -1,0 +1,42 @@
+{
+  "site": "Rajni Garg",
+  "assets": [
+    {
+      "path": "assets/colourful-charms.jpg",
+      "driveId": "1-4Ub8-bIZfxw5wwHxbrDxuWQrzwltFD4",
+      "auditId": "A-008",
+      "use": "gallery"
+    },
+    {
+      "path": "assets/tassel-charm.jpg",
+      "driveId": "1IrMkokDQVPL7ZVMEcCZPDeyfI3Q7HRG_",
+      "auditId": "A-010",
+      "use": "gallery"
+    },
+    {
+      "path": "assets/lamp-detail.jpg",
+      "driveId": "1ASKQuvqLHj4hRWBsJVPx8gWRNDNkOvpz",
+      "auditId": "A-011",
+      "use": "gallery"
+    },
+    {
+      "path": "assets/blue-keychain.jpg",
+      "driveId": "1dTdS4Up-iZ_tiCQ9cmbRc7zz92WKdYEI",
+      "auditId": "A-012",
+      "use": "gallery"
+    },
+    {
+      "path": "assets/knotted-dolls.jpg",
+      "driveId": "1JkD3KkU7Z_nyW6CLfGSNkhLr_g4Om7Yv",
+      "auditId": "A-017",
+      "use": "hero and gallery"
+    },
+    {
+      "path": "assets/macrame-handhold.jpg",
+      "driveId": "13ynJe0MI4DHnpybhZxkp4lTTE7-bPqH0",
+      "auditId": "A-019",
+      "use": "story"
+    }
+  ],
+  "approval": "User-approved on 2026-07-30 for use in the Rajni Garg website. Excludes third-party, AI-staged, price-overlay and consent-sensitive assets."
+}
