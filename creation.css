@@ -67,3 +67,13 @@
   .detail-primary { inset: 0; }
   .detail-copy h1 { font-size: clamp(3rem, 13vw, 4rem); }
 }
+
+[data-lang-view][hidden] { display: none !important; }
+.detail-evidence {
+  margin-top: 1rem;
+  padding: 1rem 1.1rem;
+  color: var(--muted);
+  background: var(--ivory);
+  border-left: 3px solid var(--terracotta);
+  font-size: .9375rem;
+}
