@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rajni-garg-crafts.akanshagnikki.chatgpt.site/sitemap.xml
