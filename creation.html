@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#7d2938">
+  <meta name="description" content="Discover a handmade creation by Rajni Garg in Sagar, Madhya Pradesh.">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="A handmade creation by Rajni Garg">
+  <meta property="og:description" content="Made with patient hands in Sagar, Madhya Pradesh.">
+  <meta property="og:image" content="https://rajni-garg-crafts.akanshagnikki.chatgpt.site/assets/knot-doll-family.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Creation — Rajni Garg</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Gloock&family=Noto+Sans+Devanagari:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="creation.css">
+  <script>document.documentElement.classList.add("js");</script>
+  <script defer src="creation.js"></script>
+</head>
+<body class="detail-body">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="paper-noise" aria-hidden="true"></div>
+  <header class="detail-header">
+    <a class="brand" href="index.html"><span class="brand-seal" aria-hidden="true">र</span><span class="brand-copy"><strong>Rajni Garg</strong><small data-copy="brand">Made with patient hands</small></span></a>
+    <div>
+      <a class="back-link" href="index.html#creations"><span aria-hidden="true">←</span><span data-copy="back">All creations</span></a>
+      <button class="language-toggle" type="button" data-language><span data-lang-label>हिंदी</span></button>
+    </div>
+  </header>
+
+  <main id="main" class="detail-main">
+    <section class="detail-hero">
+      <div class="detail-gallery">
+        <figure class="detail-primary"><img data-piece-image src="assets/knot-doll-family.jpg" alt=""></figure>
+        <figure class="detail-secondary"><img data-piece-secondary src="assets/yellow-knot-doll.jpg" alt=""></figure>
+      </div>
+      <div class="detail-copy">
+        <p class="eyebrow" data-piece-family></p>
+        <h1 data-piece-title></h1>
+        <p class="detail-intro" data-piece-intro></p>
+        <dl class="piece-facts">
+          <div><dt data-copy="materialsLabel">What you can see</dt><dd data-piece-materials></dd></div>
+          <div><dt data-copy="characterLabel">The feeling</dt><dd data-piece-character></dd></div>
+          <div><dt data-copy="availabilityLabel">Availability</dt><dd data-copy="availability">Confirmed personally after an enquiry</dd></div>
+        </dl>
+        <div class="detail-actions">
+          <button class="button button-primary" type="button" data-enquire><span data-copy="ask">Ask about this creation</span><span aria-hidden="true">↗</span></button>
+          <button class="button button-outline" type="button" data-share><span data-copy="share">Share this page</span><span aria-hidden="true">⧉</span></button>
+        </div>
+        <p class="detail-status" data-status role="status"></p>
+      </div>
+    </section>
+
+    <section class="detail-story">
+      <p class="eyebrow" data-copy="storyEyebrow">The making story</p>
+      <h2 data-piece-story-title></h2>
+      <p data-piece-story></p>
+      <div class="detail-principles">
+        <article><span>01</span><h3 data-copy="realTitle">Real work</h3><p data-copy="realBody">Shown through Rajni ji’s own craft photograph.</p></article>
+        <article><span>02</span><h3 data-copy="humanTitle">Human reply</h3><p data-copy="humanBody">No automated promise about price, timing or recreation.</p></article>
+        <article><span>03</span><h3 data-copy="personalTitle">Personal possibility</h3><p data-copy="personalBody">Colour or use ideas can begin a conversation.</p></article>
+      </div>
+    </section>
+
+    <section class="detail-next">
+      <p data-copy="next">Continue discovering Rajni ji’s work</p>
+      <a href="index.html#creations"><span data-copy="browse">Browse all creations</span><span aria-hidden="true">→</span></a>
+    </section>
+  </main>
+
+  <dialog class="enquiry-dialog" data-enquiry-dialog aria-labelledby="enquiry-title">
+    <button class="dialog-close" type="button" data-enquiry-close aria-label="Close">×</button>
+    <div class="dialog-heading">
+      <p class="eyebrow" data-copy="formEyebrow">A thoughtful beginning</p>
+      <h2 id="enquiry-title" data-copy="formTitle">Ask about this creation</h2>
+      <p data-copy="formIntro">Prepare a message, then copy or share it. Your details are not stored here.</p>
+    </div>
+    <form data-enquiry-form>
+      <label><span data-copy="name">Your name</span><input name="name" autocomplete="name" required></label>
+      <label><span data-copy="city">Your city</span><input name="city" autocomplete="address-level2"></label>
+      <label class="full"><span data-copy="message">Your question or idea</span><textarea name="message" rows="5" required></textarea></label>
+      <label class="consent full"><input type="checkbox" required><span data-copy="consent">I understand that possibility, price and timing are confirmed personally.</span></label>
+      <div class="form-actions full">
+        <button class="button button-primary" type="submit"><span data-copy="copy">Copy enquiry</span><span aria-hidden="true">⧉</span></button>
+        <button class="button button-outline" type="button" data-share-enquiry><span data-copy="shareMessage">Share message</span><span aria-hidden="true">↗</span></button>
+      </div>
+      <p class="form-status full" data-form-status role="status"></p>
+    </form>
+  </dialog>
+</body>
+</html>
