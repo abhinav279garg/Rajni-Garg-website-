@@ -1,11 +1,12 @@
 const translations = {
   en: {
+    skip: "Skip to content", brandHome: "Rajni Garg home", menuOpen: "Open menu", menuClose: "Close menu", primaryNav: "Primary navigation", switchLanguage: "Switch language", heroGallery: "A selection of Rajni ji’s handmade work", craftFamilies: "Craft families", filterCreations: "Filter creations", closeDialog: "Close dialog", messagePlaceholder: "What would you like Rajni ji to know?", filterCount: "{count} creations shown",
     welcome: "A family-supported home for Rajni ji’s handmade work",
     brandTag: "Made with patient hands",
     navRajni: "Meet Rajni ji", navCreations: "Creations", navMaking: "Behind the making", navLearn: "Learn", navEnquire: "Enquire",
     heroEyebrow: "Handmade in Sagar · Madhya Pradesh", heroTitleOne: "Every knot carries", heroTitleTwo: "a little joy.",
     heroLead: "Step into Rajni ji’s colourful world of knot dolls, wearable cords and small keepsakes—made slowly, shared warmly and remembered fondly.",
-    heroPrimary: "Discover the creations", heroSecondary: "Meet the maker", trustOne: "Only genuine craft photographs", trustTwo: "Every enquiry answered by a person",
+    heroPrimary: "Discover the creations", heroSecondary: "Meet the maker", trustOne: "Only genuine craft photographs", trustTwo: "Nothing is sent without your action",
     heroCaption: "A playful family of hand-knotted characters",
     ribbonOne: "Knot dolls", ribbonTwo: "Macramé", ribbonThree: "Wearable cords", ribbonFour: "Festive keepsakes", ribbonFive: "Learning together",
     meetCaption: "Her worktable in Sagar", meetNote: "Cord, colour, wooden beads—and the patience to try again.",
@@ -30,29 +31,30 @@ const translations = {
     makingTwoTitle: "Knot & finish", makingTwoBody: "The form grows through repetition, adjustment and small finishing touches made by hand.",
     makingThreeTitle: "Prepare with care", makingThreeBody: "Finished pieces are checked and prepared one by one before they leave the table.",
     learnEyebrow: "Knowledge carried forward", learnTitleOne: "A craft grows", learnTitleTwo: "when hands learn together.",
-    learnBody: "This space is being shaped not only to show finished work, but also to keep the joy of making discoverable for younger generations. Learning enquiries are welcome and confirmed personally.",
-    learnCta: "Ask about learning", learnOneTitle: "Begin with curiosity", learnOneBody: "A warm introduction to cord, colour and the rhythm of a basic knot.",
-    learnTwoTitle: "Learn at a human pace", learnTwoBody: "Small, careful steps that leave room to watch, repeat and ask.",
-    learnThreeTitle: "Make something meaningful", learnThreeBody: "The pleasure of turning simple material into a personal little object.",
+    learnBody: "Rajni ji’s learning format is still being shaped. You can register interest; age group, place, duration, materials and any fee will be confirmed personally before a session exists.",
+    learnCta: "Register interest in learning", learnOneTitle: "Children & parent-child interest", learnOneBody: "A possible beginner introduction, subject to Rajni ji’s confirmation.",
+    learnTwoTitle: "Adult & senior beginner interest", learnTwoBody: "A possible small, patient learning circle, subject to confirmation.",
+    learnThreeTitle: "School or community interest", learnThreeBody: "Groups may register interest; format and feasibility are not yet promised.",
     enquireEyebrow: "Start with a conversation", enquireTitle: "Seen something that made you smile?",
-    enquireBody: "Tell us which creation, colour, occasion or learning idea you have in mind. Rajni ji or an authorised family member will reply personally.",
-    enquireCta: "Write an enquiry", enquireTrustOne: "No automatic price or delivery promise", enquireTrustTwo: "Nothing is sent until you choose to share it",
+    enquireBody: "Use this website to prepare a clear message about a creation, colour, occasion or learning idea. The website does not submit it or choose a recipient.",
+    enquireCta: "Prepare a message for Rajni ji", sendNote: "Nothing is submitted from this website. After copying, send the message using contact details already shared with you.", enquireTrustOne: "No automatic price or delivery promise", enquireTrustTwo: "Nothing is sent until you choose to share it",
     footerTag: "Handmade in Sagar", footerLine: "Her hands. Her creations. Her knowledge carried forward.", privacy: "Privacy",
     formEyebrow: "A thoughtful beginning", formTitle: "What would you like to ask Rajni ji?",
-    formIntro: "Create a message here, then copy it or choose how to share it. Your details are not stored by this website.",
+    formIntro: "Prepare your message here. Copying or sharing does not submit it to Rajni ji; you must choose a recipient yourself. Your details are not stored by this website.",
     formName: "Your name", formCity: "Your city", formInterest: "I am interested in", formMessage: "Tell us a little more",
     formConsent: "I understand that Rajni ji or her family will confirm what is possible, along with price and timing.",
     optionCreation: "A handmade creation", optionCustom: "A personalised idea", optionLearning: "Learning about the craft", optionAppreciation: "Sharing appreciation",
-    formCopy: "Copy enquiry", formShare: "Share message", formSafe: "Private by design: this website does not save or automatically send your enquiry.",
+    formCopy: "Copy prepared message", formShare: "Share prepared message", formSafe: "Private by design: this website does not save or automatically send your enquiry.",
     copied: "Your enquiry is copied. You can now paste it into WhatsApp or another message.", shareUnavailable: "Sharing is not available here, so the enquiry has been copied instead."
   },
   hi: {
+    skip: "मुख्य सामग्री पर जाएँ", brandHome: "राजनी गर्ग का मुखपृष्ठ", menuOpen: "मेनू खोलें", menuClose: "मेनू बंद करें", primaryNav: "मुख्य नेविगेशन", switchLanguage: "भाषा बदलें", heroGallery: "राजनी जी की हस्तनिर्मित रचनाओं की झलक", craftFamilies: "हस्तकला की श्रेणियाँ", filterCreations: "रचनाएँ छाँटें", closeDialog: "संवाद बंद करें", messagePlaceholder: "आप राजनी जी को क्या बताना चाहेंगे?", filterCount: "{count} रचनाएँ दिखाई गईं",
     welcome: "राजनी जी की हस्तकला का परिवार-संरक्षित डिजिटल घर",
     brandTag: "धैर्य और स्नेह से निर्मित",
     navRajni: "राजनी जी से मिलें", navCreations: "रचनाएँ", navMaking: "बनने की कहानी", navLearn: "सीखें", navEnquire: "संपर्क करें",
     heroEyebrow: "सागर · मध्य प्रदेश में हस्तनिर्मित", heroTitleOne: "हर गाँठ में बसी है", heroTitleTwo: "थोड़ी-सी खुशी।",
     heroLead: "राजनी जी की रंग-बिरंगी दुनिया में आइए—गाँठों से बनी गुड़ियाँ, पहनने योग्य डोरियाँ और छोटी-छोटी यादगार चीज़ें, जिन्हें धैर्य से बनाया और स्नेह से साझा किया जाता है।",
-    heroPrimary: "रचनाएँ देखिए", heroSecondary: "रचनाकार से मिलिए", trustOne: "केवल वास्तविक हस्तकला की तस्वीरें", trustTwo: "हर संदेश का उत्तर कोई अपना देगा",
+    heroPrimary: "रचनाएँ देखिए", heroSecondary: "रचनाकार से मिलिए", trustOne: "केवल वास्तविक हस्तकला की तस्वीरें", trustTwo: "आपकी कार्रवाई के बिना कुछ नहीं भेजा जाता",
     heroCaption: "हाथों से बनी चंचल और रंगीन गुड़ियों का परिवार",
     ribbonOne: "गाँठों की गुड़ियाँ", ribbonTwo: "मैक्रामे", ribbonThree: "पहनने योग्य डोरियाँ", ribbonFour: "त्योहारों की यादें", ribbonFive: "साथ मिलकर सीखना",
     meetCaption: "सागर में उनकी कार्य-मेज़", meetNote: "डोरी, रंग, लकड़ी के मोती—और बार-बार कोशिश करने का धैर्य।",
@@ -77,20 +79,20 @@ const translations = {
     makingTwoTitle: "गाँठना और सँवारना", makingTwoBody: "दोहराव, छोटे सुधार और हाथों से किए गए अंतिम स्पर्श से रचना आकार लेती है।",
     makingThreeTitle: "स्नेह से तैयार करना", makingThreeBody: "कार्य-मेज़ से बाहर जाने से पहले हर रचना को अलग से जाँचकर सावधानी से तैयार किया जाता है।",
     learnEyebrow: "ज्ञान आगे बढ़े", learnTitleOne: "हस्तकला तब बढ़ती है", learnTitleTwo: "जब हाथ साथ सीखते हैं।",
-    learnBody: "यह स्थान केवल तैयार काम दिखाने के लिए नहीं, बल्कि नई पीढ़ी को सृजन की खुशी से जोड़ने के लिए भी बनाया जा रहा है। सीखने से जुड़े संदेशों का व्यक्तिगत उत्तर दिया जाएगा।",
-    learnCta: "सीखने के बारे में पूछें", learnOneTitle: "जिज्ञासा से शुरुआत", learnOneBody: "डोरी, रंग और एक सरल गाँठ की लय से आत्मीय परिचय।",
-    learnTwoTitle: "अपनी गति से सीखना", learnTwoBody: "छोटे और सहज कदम—देखने, दोहराने और पूछने की पूरी जगह के साथ।",
-    learnThreeTitle: "कुछ अर्थपूर्ण बनाना", learnThreeBody: "साधारण सामग्री को अपनी छोटी-सी रचना में बदलने का सुख।",
+    learnBody: "राजनी जी के सीखने-सिखाने का प्रारूप अभी तय हो रहा है। आप अपनी रुचि दर्ज कर सकते हैं; आयु, स्थान, समय, सामग्री और शुल्क की पुष्टि किसी सत्र से पहले व्यक्तिगत रूप से होगी।",
+    learnCta: "सीखने में रुचि दर्ज करें", learnOneTitle: "बच्चों और माता-पिता की रुचि", learnOneBody: "शुरुआती परिचय की संभावना—राजनी जी की पुष्टि के अधीन।",
+    learnTwoTitle: "वयस्क और वरिष्ठ शुरुआती", learnTwoBody: "छोटे, सहज सीखने के समूह की संभावना—पुष्टि के अधीन।",
+    learnThreeTitle: "स्कूल या समुदाय की रुचि", learnThreeBody: "समूह रुचि दर्ज कर सकते हैं; प्रारूप और संभावना अभी तय नहीं हैं।",
     enquireEyebrow: "बातचीत से शुरुआत", enquireTitle: "क्या किसी रचना ने आपके चेहरे पर मुस्कान ला दी?",
-    enquireBody: "बताइए कि आपको कौन-सी रचना, रंग, अवसर या सीखने का विचार पसंद आया। राजनी जी या परिवार का अधिकृत सदस्य व्यक्तिगत रूप से उत्तर देगा।",
-    enquireCta: "अपना संदेश लिखें", enquireTrustOne: "मूल्य या डिलीवरी का कोई स्वचालित वादा नहीं", enquireTrustTwo: "आपके साझा करने से पहले कुछ भी नहीं भेजा जाता",
+    enquireBody: "किसी रचना, रंग, अवसर या सीखने के विचार के बारे में स्पष्ट संदेश तैयार करें। यह वेबसाइट संदेश भेजती नहीं है और प्राप्तकर्ता नहीं चुनती।",
+    enquireCta: "राजनी जी के लिए संदेश तैयार करें", sendNote: "इस वेबसाइट से कुछ जमा या भेजा नहीं जाता। कॉपी करने के बाद, पहले से साझा संपर्क के माध्यम से संदेश भेजें।", enquireTrustOne: "मूल्य या डिलीवरी का कोई स्वचालित वादा नहीं", enquireTrustTwo: "आपके साझा करने से पहले कुछ भी नहीं भेजा जाता",
     footerTag: "सागर में हस्तनिर्मित", footerLine: "उनके हाथ। उनकी रचनाएँ। उनका ज्ञान—आगे बढ़ता हुआ।", privacy: "गोपनीयता",
     formEyebrow: "एक आत्मीय शुरुआत", formTitle: "आप राजनी जी से क्या पूछना चाहेंगे?",
-    formIntro: "यहाँ अपना संदेश तैयार करें, फिर उसे कॉपी करें या साझा करने का तरीका चुनें। यह वेबसाइट आपकी जानकारी सहेजती नहीं है।",
+    formIntro: "यहाँ संदेश तैयार करें। कॉपी या साझा करने से वह राजनी जी तक अपने-आप नहीं पहुँचता; प्राप्तकर्ता आपको चुनना होगा। यह वेबसाइट आपकी जानकारी सहेजती नहीं है।",
     formName: "आपका नाम", formCity: "आपका शहर", formInterest: "मेरी रुचि है", formMessage: "थोड़ा और बताइए",
     formConsent: "मैं समझता/समझती हूँ कि क्या संभव है, उसके मूल्य और समय की पुष्टि राजनी जी या उनका परिवार करेगा।",
     optionCreation: "कोई हस्तनिर्मित रचना", optionCustom: "मेरी पसंद का विशेष विचार", optionLearning: "हस्तकला सीखना", optionAppreciation: "प्रशंसा साझा करना",
-    formCopy: "संदेश कॉपी करें", formShare: "संदेश साझा करें", formSafe: "गोपनीयता का ध्यान: यह वेबसाइट आपके संदेश को न सहेजती है, न अपने-आप भेजती है।",
+    formCopy: "तैयार संदेश कॉपी करें", formShare: "तैयार संदेश साझा करें", formSafe: "गोपनीयता का ध्यान: यह वेबसाइट आपके संदेश को न सहेजती है, न अपने-आप भेजती है।",
     copied: "आपका संदेश कॉपी हो गया है। अब आप इसे WhatsApp या किसी अन्य संदेश में पेस्ट कर सकते हैं।", shareUnavailable: "यहाँ साझा करने की सुविधा उपलब्ध नहीं थी, इसलिए संदेश कॉपी कर दिया गया है।"
   }
 };
@@ -111,6 +113,16 @@ function applyLanguage(nextLanguage) {
     const value = translations[language][element.dataset.i18n];
     if (value) element.textContent = value;
   });
+  document.querySelectorAll("[data-i18n-aria]").forEach((element) => {
+    const value = translations[language][element.dataset.i18nAria];
+    if (value) element.setAttribute("aria-label", value);
+  });
+  document.querySelectorAll("[data-i18n-placeholder]").forEach((element) => {
+    const value = translations[language][element.dataset.i18nPlaceholder];
+    if (value) element.setAttribute("placeholder", value);
+  });
+  const menuLabel = document.querySelector("[data-menu-label]");
+  if (menuLabel) menuLabel.textContent = translations[language][menu.getAttribute("aria-expanded") === "true" ? "menuClose" : "menuOpen"];
   document.querySelector("[data-lang-label]").textContent = language === "en" ? "हिंदी" : "English";
   localStorage.setItem("rajni-language", language);
 }
@@ -123,10 +135,12 @@ window.addEventListener("scroll", () => header.classList.toggle("is-scrolled", w
 menu.addEventListener("click", () => {
   const open = nav.classList.toggle("is-open");
   menu.setAttribute("aria-expanded", String(open));
+  document.querySelector("[data-menu-label]").textContent = translations[language][open ? "menuClose" : "menuOpen"];
 });
 nav.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => {
   nav.classList.remove("is-open");
   menu.setAttribute("aria-expanded", "false");
+  document.querySelector("[data-menu-label]").textContent = translations[language].menuOpen;
 }));
 
 if ("IntersectionObserver" in window) {
@@ -142,11 +156,18 @@ if ("IntersectionObserver" in window) {
 }
 
 document.querySelectorAll("[data-filter]").forEach((button) => button.addEventListener("click", () => {
-  document.querySelectorAll("[data-filter]").forEach((item) => item.classList.remove("is-active"));
-  button.classList.add("is-active");
-  document.querySelectorAll("[data-category]").forEach((card) => {
-    card.classList.toggle("is-hidden", button.dataset.filter !== "all" && card.dataset.category !== button.dataset.filter);
+  document.querySelectorAll("[data-filter]").forEach((item) => {
+    const active = item === button;
+    item.classList.toggle("is-active", active);
+    item.setAttribute("aria-pressed", String(active));
   });
+  let visible = 0;
+  document.querySelectorAll("[data-category]").forEach((card) => {
+    const hidden = button.dataset.filter !== "all" && card.dataset.category !== button.dataset.filter;
+    card.classList.toggle("is-hidden", hidden);
+    if (!hidden) visible += 1;
+  });
+  document.querySelector("[data-filter-status]").textContent = translations[language].filterCount.replace("{count}", String(visible));
 }));
 
 const enquiryDialog = document.querySelector("[data-enquiry-dialog]");

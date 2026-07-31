@@ -49,3 +49,31 @@
   .detail-principles { grid-template-columns: 1fr; }
   .detail-next { align-items: flex-start; flex-direction: column; }
 }
+
+
+/* Honest single-image layout: no unrelated secondary asset */
+.detail-primary { inset: 0; }
+.detail-secondary { display: none; }
+.back-link,
+.piece-facts dt,
+.piece-facts dd,
+.detail-status,
+.detail-principles span,
+.detail-principles p { font-size: .875rem; }
+
+@media (max-width: 650px) {
+  .detail-hero { min-height: auto; padding-bottom: 70px; }
+  .detail-gallery { min-height: 390px; }
+  .detail-primary { inset: 0; }
+  .detail-copy h1 { font-size: clamp(3rem, 13vw, 4rem); }
+}
+
+[data-lang-view][hidden] { display: none !important; }
+.detail-evidence {
+  margin-top: 1rem;
+  padding: 1rem 1.1rem;
+  color: var(--muted);
+  background: var(--ivory);
+  border-left: 3px solid var(--terracotta);
+  font-size: .9375rem;
+}

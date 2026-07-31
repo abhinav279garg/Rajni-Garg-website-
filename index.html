@@ -12,6 +12,7 @@
   <meta property="og:url" content="https://rajni-garg-crafts.akanshagnikki.chatgpt.site/">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://rajni-garg-crafts.akanshagnikki.chatgpt.site/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <title>Rajni Garg — Handmade with patience in Sagar</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,7 +25,7 @@
   </script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
   <div class="paper-noise" aria-hidden="true"></div>
 
   <div class="welcome-line">
@@ -32,22 +33,22 @@
   </div>
 
   <header class="site-header" data-header>
-    <a class="brand" href="#home" aria-label="Rajni Garg home">
+    <a class="brand" href="#home" aria-label="Rajni Garg home" data-i18n-aria="brandHome">
       <span class="brand-seal" aria-hidden="true">र</span>
       <span class="brand-copy"><strong>Rajni Garg</strong><small data-i18n="brandTag">Made with patient hands</small></span>
     </a>
 
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu>
-      <span></span><span></span><span></span><span class="sr-only">Open menu</span>
+      <span></span><span></span><span></span><span class="sr-only" data-menu-label data-i18n="menuOpen">Open menu</span>
     </button>
 
-    <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation" data-i18n-aria="primaryNav">
       <a href="#rajni" data-i18n="navRajni">Meet Rajni ji</a>
       <a href="#creations" data-i18n="navCreations">Creations</a>
       <a href="#making" data-i18n="navMaking">Behind the making</a>
       <a href="#learn" data-i18n="navLearn">Learn</a>
       <a class="nav-enquire" href="#enquire" data-i18n="navEnquire">Enquire</a>
-      <button class="language-toggle" type="button" data-language aria-label="Switch language"><span data-lang-label>हिंदी</span></button>
+      <button class="language-toggle" type="button" data-language aria-label="Switch language" data-i18n-aria="switchLanguage"><span data-lang-label>हिंदी</span></button>
     </nav>
   </header>
 
@@ -70,9 +71,9 @@
         </div>
       </div>
 
-      <div class="hero-collage reveal" aria-label="A selection of Rajni ji’s handmade work">
+      <div class="hero-collage reveal" aria-label="A selection of Rajni ji’s handmade work" data-i18n-aria="heroGallery">
         <figure class="hero-photo hero-photo-main">
-          <img src="assets/knot-doll-family.jpg" alt="A colourful family of handmade knot dolls" width="1600" height="837">
+          <img src="assets/knot-doll-family.jpg" alt="A colourful family of handmade knot dolls" width="1600" height="837" fetchpriority="high">
           <figcaption data-i18n="heroCaption">A playful family of hand-knotted characters</figcaption>
         </figure>
         <figure class="hero-photo hero-photo-tall">
@@ -85,7 +86,7 @@
       </div>
     </section>
 
-    <section class="craft-ribbon" aria-label="Craft families">
+    <section class="craft-ribbon" aria-label="Craft families" data-i18n-aria="craftFamilies">
       <div>
         <span data-i18n="ribbonOne">Knot dolls</span><i>✦</i>
         <span data-i18n="ribbonTwo">Macramé</span><i>✦</i>
@@ -124,45 +125,46 @@
         <p data-i18n="creationsIntro">Browse the craft families already documented in Rajni ji’s photographs. Each page can be shared with someone you love.</p>
       </header>
 
-      <div class="category-tabs reveal" role="group" aria-label="Filter creations">
-        <button class="category-tab is-active" type="button" data-filter="all" data-i18n="filterAll">See all</button>
-        <button class="category-tab" type="button" data-filter="characters" data-i18n="filterCharacters">Characters</button>
-        <button class="category-tab" type="button" data-filter="wearable" data-i18n="filterWearable">Wearable</button>
-        <button class="category-tab" type="button" data-filter="festive" data-i18n="filterFestive">Festive</button>
-        <button class="category-tab" type="button" data-filter="home" data-i18n="filterHome">Macramé</button>
+      <div class="category-tabs reveal" role="group" aria-label="Filter creations" data-i18n-aria="filterCreations">
+        <button class="category-tab is-active" type="button" data-filter="all" data-i18n="filterAll" aria-pressed="true">See all</button>
+        <button class="category-tab" type="button" aria-pressed="false" data-filter="characters" data-i18n="filterCharacters">Characters</button>
+        <button class="category-tab" type="button" aria-pressed="false" data-filter="wearable" data-i18n="filterWearable">Wearable</button>
+        <button class="category-tab" type="button" aria-pressed="false" data-filter="festive" data-i18n="filterFestive">Festive</button>
+        <button class="category-tab" type="button" aria-pressed="false" data-filter="home" data-i18n="filterHome">Macramé</button>
       </div>
+      <p class="sr-only" data-filter-status role="status" aria-live="polite"></p>
 
       <div class="creation-grid">
         <article class="creation-card creation-card-large reveal" data-category="characters">
-          <a href="creation.html?piece=knot-dolls">
+          <a href="creations/knot-doll-family/">
             <figure><img src="assets/knot-doll-family.jpg" alt="Handmade knot dolls in mustard, red, blue and yellow" loading="lazy" width="1600" height="837"></figure>
             <div><p data-i18n="familyCharacters">Characters & charms</p><h3 data-i18n="creationOne">The knot-doll family</h3><span><span data-i18n="viewStory">See the story</span> ↗</span></div>
           </a>
         </article>
 
         <article class="creation-card creation-card-tall reveal" data-category="wearable">
-          <a href="creation.html?piece=rose-lanyard">
+          <a href="creations/rose-slate-lanyard/">
             <figure><img src="assets/rose-slate-lanyard.jpg" alt="Rose and slate hand-knotted lanyard with wooden beads" loading="lazy" width="1298" height="1600"></figure>
             <div><p data-i18n="familyWearable">Wearable knotwork</p><h3 data-i18n="creationTwo">Rose & slate lanyard</h3><span><span data-i18n="viewDetails">View details</span> ↗</span></div>
           </a>
         </article>
 
         <article class="creation-card reveal" data-category="festive">
-          <a href="creation.html?piece=rose-thread">
+          <a href="creations/rose-knot-thread/">
             <figure><img src="assets/rose-knot-thread.jpg" alt="Peach knotwork thread with a rose bead" loading="lazy" width="1283" height="1600"></figure>
             <div><p data-i18n="familyFestive">Festive keepsakes</p><h3 data-i18n="creationThree">The rose-knot thread</h3><span><span data-i18n="viewDetails">View details</span> ↗</span></div>
           </a>
         </article>
 
         <article class="creation-card creation-card-wide reveal" data-category="home">
-          <a href="creation.html?piece=white-macrame">
+          <a href="creations/ivory-knot-collection/">
             <figure><img src="assets/white-macrame-set.jpg" alt="White macramé straps and a tasselled charm" loading="lazy" width="1600" height="1480"></figure>
             <div><p data-i18n="familyMacrame">Macramé details</p><h3 data-i18n="creationFour">The ivory knot collection</h3><span><span data-i18n="viewDetails">View details</span> ↗</span></div>
           </a>
         </article>
 
         <article class="creation-card creation-card-tall reveal" data-category="characters">
-          <a href="creation.html?piece=yellow-doll">
+          <a href="creations/sunshine-knot-doll/">
             <figure><img src="assets/yellow-knot-doll.jpg" alt="Yellow hand-knotted doll keychain" loading="lazy" width="720" height="1600"></figure>
             <div><p data-i18n="familyCharacters">Characters & charms</p><h3 data-i18n="creationFive">The sunshine knot doll</h3><span><span data-i18n="viewDetails">View details</span> ↗</span></div>
           </a>
@@ -181,7 +183,7 @@
         <p class="eyebrow" data-i18n="featureEyebrow">A closer look</p>
         <h2 data-i18n="featureTitle">A few knots. A tiny face. A whole personality.</h2>
         <p data-i18n="featureBody">The knot doll begins with cord and repetition. A wooden bead becomes a face, a small clip makes it useful, and colour gives each character its mood. No two handmade expressions need to feel exactly alike.</p>
-        <a class="button button-cream" href="creation.html?piece=knot-dolls"><span data-i18n="featureCta">Meet the knot-doll family</span><span aria-hidden="true">→</span></a>
+        <a class="button button-cream" href="creations/knot-doll-family/"><span data-i18n="featureCta">Meet the knot-doll family</span><span aria-hidden="true">→</span></a>
       </div>
       <div class="feature-family reveal"><img src="assets/knot-doll-family.jpg" alt="A row of handmade knot dolls in different colours" loading="lazy" width="1600" height="837"></div>
     </section>
@@ -213,7 +215,7 @@
         <p class="eyebrow" data-i18n="learnEyebrow">Knowledge carried forward</p>
         <h2><span data-i18n="learnTitleOne">A craft grows</span><em data-i18n="learnTitleTwo">when hands learn together.</em></h2>
         <p data-i18n="learnBody">This space is being shaped not only to show finished work, but also to keep the joy of making discoverable for younger generations. Learning enquiries are welcome and confirmed personally.</p>
-        <button class="button button-cream" type="button" data-open-enquiry data-intent="learning"><span data-i18n="learnCta">Ask about learning</span><span aria-hidden="true">↗</span></button>
+        <button class="button button-cream" type="button" data-open-enquiry data-intent="learning"><span data-i18n="learnCta">Register interest in learning</span><span aria-hidden="true">↗</span></button>
       </div>
       <div class="learn-promises reveal">
         <article><span>01</span><div><h3 data-i18n="learnOneTitle">Begin with curiosity</h3><p data-i18n="learnOneBody">A warm introduction to cord, colour and the rhythm of a basic knot.</p></div></article>
@@ -230,7 +232,8 @@
         <p class="eyebrow" data-i18n="enquireEyebrow">Start with a conversation</p>
         <h2 data-i18n="enquireTitle">Seen something that made you smile?</h2>
         <p data-i18n="enquireBody">Tell us which creation, colour, occasion or learning idea you have in mind. Rajni ji or an authorised family member will reply personally.</p>
-        <button class="button button-primary" type="button" data-open-enquiry><span data-i18n="enquireCta">Write an enquiry</span><span aria-hidden="true">↗</span></button>
+        <button class="button button-primary" type="button" data-open-enquiry><span data-i18n="enquireCta">Prepare a message for Rajni ji</span><span aria-hidden="true">↗</span></button>
+        <p class="send-note" data-i18n="sendNote">Nothing is submitted from this website. After copying, send the message using contact details already shared with you.</p>
         <ul>
           <li><span aria-hidden="true">✓</span><span data-i18n="enquireTrustOne">No automatic price or delivery promise</span></li>
           <li><span aria-hidden="true">✓</span><span data-i18n="enquireTrustTwo">Nothing is sent until you choose to share it</span></li>
@@ -250,7 +253,7 @@
   </footer>
 
   <dialog class="enquiry-dialog" data-enquiry-dialog aria-labelledby="enquiry-title">
-    <button class="dialog-close" type="button" data-enquiry-close aria-label="Close">×</button>
+    <button class="dialog-close" type="button" data-enquiry-close aria-label="Close" data-i18n-aria="closeDialog">×</button>
     <div class="dialog-heading">
       <p class="eyebrow" data-i18n="formEyebrow">A thoughtful beginning</p>
       <h2 id="enquiry-title" data-i18n="formTitle">What would you like to ask Rajni ji?</h2>
@@ -268,7 +271,7 @@
           <option value="Sharing appreciation" data-i18n="optionAppreciation">Sharing appreciation</option>
         </select>
       </label>
-      <label class="full"><span data-i18n="formMessage">Tell us a little more</span><textarea name="message" rows="5" required placeholder="Creation, colours, occasion, quantity or what you hope to learn"></textarea></label>
+      <label class="full"><span data-i18n="formMessage">Tell us a little more</span><textarea name="message" rows="5" required data-i18n-placeholder="messagePlaceholder" placeholder="What would you like Rajni ji to know?"></textarea></label>
       <label class="consent full"><input type="checkbox" required><span data-i18n="formConsent">I understand that Rajni ji or her family will confirm what is possible, along with price and timing.</span></label>
       <div class="form-actions full">
         <button class="button button-primary" type="submit"><span data-i18n="formCopy">Copy enquiry</span><span aria-hidden="true">⧉</span></button>
@@ -280,7 +283,7 @@
   </dialog>
 
   <dialog class="notice-dialog" data-notice-dialog aria-labelledby="notice-title">
-    <button class="dialog-close" type="button" data-notice-close aria-label="Close">×</button>
+    <button class="dialog-close" type="button" data-notice-close aria-label="Close" data-i18n-aria="closeDialog">×</button>
     <div data-notice-content></div>
   </dialog>
 </body>

@@ -6,16 +6,16 @@ A bilingual, mobile-first digital home for Rajni Garg’s real handmade work. Th
 
 - English and Hindi content with a persistent language switch
 - Responsive editorial homepage with a warmer maker-led story
-- Five shareable creation pages using seven approved documentary photographs
+- Five real, slug-based creation pages with unique metadata, using approved documentary photographs
 - Filterable creation families and a dedicated “Behind the Making” section
-- Privacy-preserving enquiry builder with copy and native share options
+- Privacy-preserving message-preparation tool with copy and native share options; it clearly states that nothing is submitted
 - Clear human-approval boundaries for price, timing and feasibility
 - Search and social metadata for the homepage and creation pages
 - No framework, analytics SDK, cookies, database, AI agent or build dependency
 
 ## Current public-site scope
 
-The public website is the complete static frontend: editorial home, maker story, filterable creations, shareable detail pages, learning pathway, enquiry journey, privacy controls and bilingual mobile behavior. The future AI agent, admin portal and WhatsApp Cloud API automation are intentionally outside this release.
+The public website is a bounded static release: editorial home, maker story, filterable creations, real detail URLs, learning-interest pathway, privacy controls and bilingual mobile behavior. It does not yet contain Rajni ji’s portrait or verified life-history interview, a contact destination, the expanded catalogue, process video, an AI agent, an admin portal or WhatsApp automation.
 
 ## Run locally
 
@@ -47,3 +47,10 @@ The enquiry builder creates a prepared message that the visitor can copy or shar
 ## Repository
 
 Canonical source: `abhinav279garg/Rajni-Garg-website-`
+
+## Current evidence boundaries
+
+- Creation descriptions state what is visible in approved photographs and do not present visual inference as confirmed product specification.
+- Learning options are invitations to register interest and remain subject to Rajni ji’s confirmation.
+- The site prepares a message but does not claim to submit it until an approved contact destination exists.
+- Portrait, biography, quote, process video and wider catalogue content must remain evidence-backed and consented before publication.

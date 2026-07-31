@@ -317,3 +317,60 @@ textarea { resize: vertical; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
   .js .reveal { opacity: 1; transform: none; }
 }
+
+
+/* Reviewer-led accessibility and mobile clarity pass */
+.welcome-line,
+.brand-copy small,
+.category-tab,
+.creation-card p,
+.footer-actions,
+.enquiry-dialog label,
+.form-safe,
+.send-note { font-size: .875rem; }
+
+.send-note {
+  max-width: 44rem;
+  margin-top: 1rem;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+@media (max-width: 600px) {
+  body { font-size: 16px; }
+  .welcome-line { display: none; }
+  .site-header { min-height: 68px; }
+  .hero {
+    gap: 26px;
+    padding-top: 30px;
+    padding-bottom: 58px;
+  }
+  .hero h1 {
+    margin-block: 14px 18px;
+    font-size: clamp(3rem, 13.5vw, 4.2rem);
+    line-height: .98;
+  }
+  .hero-lead { max-width: 34rem; font-size: 1rem; }
+  .hero-actions { flex-direction: row; align-items: center; flex-wrap: wrap; }
+  .hero-trust { display: none; }
+  .hero-collage { min-height: 330px; }
+  .hero-photo-main {
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .hero-photo-tall,
+  .hero-photo-small,
+  .hero-stamp { display: none; }
+  .section-pad { padding-block: 64px; }
+  .meet-visual { min-height: 390px; }
+  .creation-card figure,
+  .creation-card-large figure,
+  .creation-card-wide figure { min-height: 300px; }
+  .feature-image { height: 390px; }
+  .feature-copy,
+  .learn { padding-inline: 18px; }
+  .feature-copy h2,
+  .learn h2,
+  .enquire-copy h2 { font-size: clamp(2.35rem, 10vw, 3rem); }
+}
