@@ -1,21 +1,21 @@
-# Rajni Garg — Handmade craft archive
+# Rajni Garg — Handmade with patient hands
 
-A bilingual, mobile-first digital home for Rajni Garg’s real handmade work. This release is deliberately enquiry-led: it presents a provenance-controlled archive, Rajni ji’s story and learning invitation without inventing prices, availability or delivery dates.
+A bilingual, mobile-first digital home for Rajni Garg’s real handmade work. The experience puts Rajni ji first, helps visitors discover her craft families, and keeps every enquiry personal without inventing prices, availability or delivery dates.
 
 ## What is included
 
 - English and Hindi content with a persistent language switch
-- Responsive editorial homepage and filtered craft archive
-- Seven evidence-backed craft/process records using seven approved documentary photographs
-- Accessible craft-detail dialogs
-- Privacy-preserving enquiry builder that opens WhatsApp only after explicit visitor action
+- Responsive editorial homepage with a warmer maker-led story
+- Five shareable creation pages using seven approved documentary photographs
+- Filterable creation families and a dedicated “Behind the Making” section
+- Privacy-preserving enquiry builder with copy and native share options
 - Clear human-approval boundaries for price, timing and feasibility
-- Privacy notice and a clear statement that the optional AI assistant is a future phase
+- Search and social metadata for the homepage and creation pages
 - No framework, analytics SDK, cookies, database, AI agent or build dependency
 
 ## Current public-site scope
 
-The public website is the complete static frontend: editorial home, story, filterable archive, craft details, learning pathways, enquiry journey, WhatsApp handoff, privacy controls and bilingual mobile behavior. The future AI agent, admin portal and WhatsApp Cloud API automation are intentionally outside this release.
+The public website is the complete static frontend: editorial home, maker story, filterable creations, shareable detail pages, learning pathway, enquiry journey, privacy controls and bilingual mobile behavior. The future AI agent, admin portal and WhatsApp Cloud API automation are intentionally outside this release.
 
 ## Run locally
 
@@ -31,9 +31,9 @@ Then open `http://localhost:4173`.
 
 Upload the repository root to any static Hostinger site or point the domain document root at this directory. No Node.js runtime is required.
 
-## WhatsApp handoff
+## Enquiry handoff
 
-The enquiry builder opens WhatsApp with a prepared message and lets the visitor choose the recipient. A dedicated WhatsApp Business destination can be introduced later through protected deployment configuration; no personal phone number is committed to this public repository.
+The enquiry builder creates a prepared message that the visitor can copy or share through their device. A dedicated WhatsApp Business destination can be introduced later through protected deployment configuration; no personal phone number is committed to this public repository.
 
 ## Content and media rules
 
