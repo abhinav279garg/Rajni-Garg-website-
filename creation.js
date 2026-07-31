@@ -1,3 +1,13 @@
+const legacyCreationRoutes = {
+  "knot-dolls": "creations/knot-doll-family/",
+  "rose-lanyard": "creations/rose-slate-lanyard/",
+  "rose-thread": "creations/rose-knot-thread/",
+  "white-macrame": "creations/ivory-knot-collection/",
+  "yellow-doll": "creations/sunshine-knot-doll/"
+};
+const legacyPiece = new URLSearchParams(location.search).get("piece");
+if (legacyCreationRoutes[legacyPiece]) location.replace(legacyCreationRoutes[legacyPiece]);
+
 const pieces = {
   "knot-dolls": {
     image: "assets/knot-doll-family.jpg", secondary: "assets/yellow-knot-doll.jpg",
